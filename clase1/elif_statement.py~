@@ -1,0 +1,12 @@
+#Elif statement
+
+age = int(input("Ingrese su edad: "))
+
+if age < 18:
+    print("Eres mayor de edad")
+elif age < 16:
+    print("Eres adolescente")
+elif age <= 35:
+    print("Eres adulto joven")
+else:
+    print("Eres menor de edad")

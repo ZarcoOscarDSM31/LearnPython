@@ -1,0 +1,24 @@
+#otros metodos
+
+message = "Los cuervos de la UTVT"
+
+#len
+size = len(message)
+
+#replace
+mensaje = message.replace("cuervos", "linces")
+message = message.replace("UTVT", "UVM")
+
+#find
+position = message.find("U")
+
+#split
+words = message.split(" ")
+
+
+print("MENSAJE: ", message)
+print("El tamaño es: ", size)
+print("Reemplazo: ", mensaje)
+print("Reemplazo: ", message)
+print("Posicion: ", position)
+print("Palabras: ", words)

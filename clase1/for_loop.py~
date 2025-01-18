@@ -1,0 +1,11 @@
+#for loop
+
+regalos_14_febrero = ['Chocolates', 'Flores', 'Mas chocolates', 'Muchas flores']
+
+for regalo in regalos_14_febrero:
+    print(regalo)
+
+meesage = "Hello World"
+
+for letter in meesage:
+    print(letter)

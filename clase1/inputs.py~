@@ -1,0 +1,13 @@
+#entrada de datos mediante consola
+
+name = input("Ingrese su nombre: ")
+age = int("Ingrese su edad: ")
+salary = float("Ingrese su salario: ")
+total_pets = eval("Ingrese la cantidad de mascotas: ")
+university = input("Ingrese su universidad: ")
+
+print("Su nombre es: ", name, "Su edad es: ", age, "Su universidad es: ", university)
+print(type(name))
+print(type(age))
+print(type(salary))
+print(type(total_pets))

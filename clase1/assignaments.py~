@@ -1,0 +1,16 @@
+#Forma simple o unitaria
+
+message = "Hello World"
+
+#asignacion multiple
+
+x, y, z = 1, 6.5, 'Oscar'
+
+#asignacion encadenada
+a = b = c = 52
+
+print('Valor de mensaje: ', message)
+
+print(x,',',y,',',z)
+
+print(a, b, c)
